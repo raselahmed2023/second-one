@@ -74,23 +74,67 @@ nav li a {
     font-weight: 800;
     line-height: 80px;
 }
-.banner-para{
+
+.banner-para {
     color: white;
     padding: 15px;
 }
 
-.banner-form{
+.banner-form {
     border: 2x solid red;
     font-size: 20px;
 }
+
 /* 2ndbanner */
 
 .secondbanner {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 
-.banner-items{
-    margin-left: 300px ;
+.banner-items {
+    /* width: 500px; */
+    /* height: 52px; */
+    top: 800px;
+    /* left: 135px; */
+    color: #131318B2;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+
+}
+
+.tour-heading {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    color: black;
+
+}
+
+.second-img {
+    width: 540px;
+    height: 550px;
+    top: 700px;
+    left: 765px;
+    border-radius: 16px;
+    margin-top: 100px;
+
+
+}
+
+.btn-primary {
+    background-color: #FF5400;
+    color: white;
+    width: 174px;
+    height: 52px;
+    top: 5764px;
+    left: 135px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
