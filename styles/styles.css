@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.nav-img {
+    width: 90px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* bannersection */
+
+.bannersection {
+    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 400px;
+    top: 150px;
+    margin-left: 300px;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.bannerheading {
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.explore-heading {
+    width: 50opx;
+    height: 80px;
+    color: white;
+    top: 252px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+}
+.banner-para{
+    color: white;
+    padding: 15px;
+}
+
+.banner-form{
+    border: 2x solid red;
+    font-size: 20px;
+}
+/* 2ndbanner */
+
+.secondbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-items{
+    margin-left: 300px ;
+}
