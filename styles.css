@@ -45,7 +45,7 @@ nav li a {
 /* bannersection */
 
 .bannersection {
-    background-image: url("Group\ 13\ \(1\)\ \(1\).png");
+    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,6 +172,13 @@ nav li a {
     width: 25%;
 }
 
+.choose-section div {
+    position: relative;
+}
+
+.choose-section div span {
+    position: absolute;
+}
 
 /* forth section */
 
